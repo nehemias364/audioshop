@@ -37,3 +37,10 @@ code {
   border: 2px solid;
   border-radius: 50%;
 }
+
+.cartIcon {
+  max-width: 4rem;
+  max-height: 4rem;
+  background-color: white;
+  border-radius: 5%;
+}

@@ -1,6 +1,8 @@
 import React from 'react';
 import '../index.css';
 import "bootstrap/dist/css/bootstrap.min.css";
+import Cartwidget from './CartWidget.js';
+import itemList from './ItemListContainer.js';
 
 export default function NavBar(){
    return( 
@@ -17,6 +19,7 @@ export default function NavBar(){
                     <p>Contacto</p>
                 </li>
             </ul>
+            <Cartwidget/>
         </nav>
     )
 }
