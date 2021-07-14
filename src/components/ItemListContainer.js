@@ -1,11 +1,10 @@
 import React from 'react';
 import '../index.css';
-import "bootstrap/dist/css/bootstrap.min.css";
 
-export default function itemList(props){
+ function ItemListContainer(props){
     return(
-        <div>
-           <p>{props}</p>
-        </div>
+           <h1>{props.saludo}</h1>
     )
 }
+
+export default ItemListContainer
